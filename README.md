@@ -17,7 +17,7 @@ Features include:
 - Play/pause the music player with the ESP32 button, this will be synced with
  the webdashboard.
 
-[Dashboard overview](images/dashboard-overview.png)
+![Dashboard overview](images/dashboard-overview.png)
 
 ## Getting Started
 
