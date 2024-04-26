@@ -1,0 +1,45 @@
+#pragma once
+#include "pitches.h"
+
+int GODFATHER_MELODY[] = {
+    // The Godfather theme
+    // Score available at https://musescore.com/user/35463/scores/55160
+
+    REST, 4, REST, 8, REST, 8, REST, 8, NOTE_E4, 8, NOTE_A4, 8, NOTE_C5, 8, // 1
+    NOTE_B4, 8, NOTE_A4, 8, NOTE_C5, 8, NOTE_A4, 8, NOTE_B4, 8, NOTE_A4, 8,
+    NOTE_F4, 8, NOTE_G4, 8, NOTE_E4, 2, NOTE_E4, 8, NOTE_A4, 8, NOTE_C5, 8,
+    NOTE_B4, 8, NOTE_A4, 8, NOTE_C5, 8, NOTE_A4, 8, NOTE_C5, 8, NOTE_A4, 8,
+    NOTE_E4, 8, NOTE_DS4, 8,
+
+    NOTE_D4, 2, NOTE_D4, 8, NOTE_F4, 8, NOTE_GS4, 8, // 5
+    NOTE_B4, 2, NOTE_D4, 8, NOTE_F4, 8, NOTE_GS4, 8, NOTE_A4, 2, NOTE_C4, 8,
+    NOTE_C4, 8, NOTE_G4, 8, NOTE_F4, 8, NOTE_E4, 8, NOTE_G4, 8, NOTE_F4, 8,
+    NOTE_F4, 8, NOTE_E4, 8, NOTE_E4, 8, NOTE_GS4, 8,
+
+    NOTE_A4, 2, REST, 8, NOTE_A4, 8, NOTE_A4, 8, NOTE_GS4, 8, // 9
+    NOTE_G4, 2, NOTE_B4, 8, NOTE_A4, 8, NOTE_F4, 8, NOTE_E4, 2, NOTE_E4, 8,
+    NOTE_G4, 8, NOTE_E4, 8, NOTE_D4, 2, NOTE_D4, 8, NOTE_D4, 8, NOTE_F4, 8,
+    NOTE_DS4, 8,
+
+    NOTE_E4, 2, REST, 8, NOTE_E4, 8, NOTE_A4, 8, NOTE_C5, 8, // 13
+
+    // repeats from 2
+    NOTE_B4, 8, NOTE_A4, 8, NOTE_C5, 8, NOTE_A4, 8, NOTE_B4, 8, NOTE_A4, 8,
+    NOTE_F4, 8, NOTE_G4, 8, // 2
+    NOTE_E4, 2, NOTE_E4, 8, NOTE_A4, 8, NOTE_C5, 8, NOTE_B4, 8, NOTE_A4, 8,
+    NOTE_C5, 8, NOTE_A4, 8, NOTE_C5, 8, NOTE_A4, 8, NOTE_E4, 8, NOTE_DS4, 8,
+
+    NOTE_D4, 2, NOTE_D4, 8, NOTE_F4, 8, NOTE_GS4, 8, // 5
+    NOTE_B4, 2, NOTE_D4, 8, NOTE_F4, 8, NOTE_GS4, 8, NOTE_A4, 2, NOTE_C4, 8,
+    NOTE_C4, 8, NOTE_G4, 8, NOTE_F4, 8, NOTE_E4, 8, NOTE_G4, 8, NOTE_F4, 8,
+    NOTE_F4, 8, NOTE_E4, 8, NOTE_E4, 8, NOTE_GS4, 8,
+
+    NOTE_A4, 2, REST, 8, NOTE_A4, 8, NOTE_A4, 8, NOTE_GS4, 8, // 9
+    NOTE_G4, 2, NOTE_B4, 8, NOTE_A4, 8, NOTE_F4, 8, NOTE_E4, 2, NOTE_E4, 8,
+    NOTE_G4, 8, NOTE_E4, 8, NOTE_D4, 2, NOTE_D4, 8, NOTE_D4, 8, NOTE_F4, 8,
+    NOTE_DS4, 8,
+
+    NOTE_E4, 2 // 13
+};
+int GODFATHER_TEMPO = 80;
+int GODFATHER_NB_NOTES= sizeof(GODFATHER_MELODY) / sizeof(GODFATHER_MELODY[0]) / 2;
